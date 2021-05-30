@@ -1,0 +1,10 @@
+.cover__overlay {
+    min-width: 320px;
+    max-width: 92.5%;
+    position: relative;
+    z-index: 2;
+}
+
+.cover__overlay:hover {
+    opacity: 0.3;
+}

@@ -1,0 +1,21 @@
+.cover__background {
+    text-decoration: none;
+    margin: 0;
+    color: #FFFFFF;
+}
+
+.cover__background::before {
+    background-color: #2A2C2F;
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    opacity: 0.3;
+    transition: opacity 0.3s linear;
+}
+
+.cover__background:hover::before {
+    opacity: 0.8;
+}
